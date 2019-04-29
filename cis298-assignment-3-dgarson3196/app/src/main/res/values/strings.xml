@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">Beverage Tracker</string>
+
+
+    <!--Strings for variables-->
+    <string name="ID">Id:</string>
+    <string name="PACK">Pack:</string>
+    <string name="PRICE">Price:</string>
+    <string name="ACTIVE">Active:</string>
+</resources>

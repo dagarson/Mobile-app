@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+
+    <!--Wine name-->
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/list__beverage_name"
+        android:padding="15dp"
+        android:textSize="20dp"
+        android:textStyle="bold"/>
+
+    <!--Wine number bellow wine name-->
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/list_beverage_num"
+        android:layout_below="@id/list__beverage_name"
+        android:padding="15dp"
+        android:textSize="25dp"/>
+
+    <!--Wine price bellow wine name and to the right of wine mumber-->
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/list_beverage_price"
+        android:layout_below="@id/list__beverage_name"
+        android:layout_toRightOf="@id/list_beverage_num"
+        android:padding="5dp"
+        android:textSize="25dp"
+        android:gravity="end"/>
+
+    <!--Line separator for each wine in list-->
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="2dp"
+        android:background="@android:color/black"
+        android:layout_below="@id/list_beverage_num"/>
+</RelativeLayout>

@@ -1,0 +1,17 @@
+
+<!--Daniel Garson
+CIS 298
+Assignment#1-->
+<resources>
+    <string name="app_name">CIS298Assignment1</string>
+
+    <!--Incrementer-->
+    <string name="number_Incrementer">NumberInc</string>
+
+    <!--+&- Buttons-->
+    <string name="plus_button">+</string>
+    <string name="minus_button">-</string>
+
+    <!--Over 20 message-->
+    <string name="count_message">You are over 20</string>
+</resources>

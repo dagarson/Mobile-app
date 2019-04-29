@@ -1,0 +1,17 @@
+<resources>
+    <string name="app_name">Temperature Converter</string>
+    <string name="action_settings">Settings</string>
+
+    <!--Headers-->
+    <string name="header">Convert:</string>
+    <string name="from">From</string>
+    <string name="to">To</string>
+
+    <!--Buttons-->
+    <string name="celsius">Celsius</string>
+    <string name="fahrenheit">Fahrenheit</string>
+    <string name="kelvin">Kelvin</string>
+
+    <!--Conversion button-->
+    <string name="convert_button">CONVERT</string>
+</resources>
